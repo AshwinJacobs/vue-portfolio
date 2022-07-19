@@ -31,7 +31,10 @@
   </div>
   <div class="Neon Footer"></div>
   <div class="Neon-Bottom">
-    <p class="mx-3 fs-5">Some contact information</p>
+    <p class="mx-3 fs-5">
+      Some Contact Information : <br /><span>Call: 061 046 2281</span><br />
+      <span>Email: ashwin.dean21@gmail.com</span>
+    </p>
   </div>
 </template>
 

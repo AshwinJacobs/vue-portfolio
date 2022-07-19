@@ -1,5 +1,5 @@
 <template>
-  <form class="container-fluid px-5">
+  <form class="container-fluid px-3">
     <div class="container">
       <h2 class="mx-5 px-5 text-light">Contact Me</h2>
       <div class="row100">
@@ -70,7 +70,7 @@ body {
 
 .container {
   width: 100%;
-  height: 77vh;
+  height: 91vh;
 }
 
 .container h2 {
