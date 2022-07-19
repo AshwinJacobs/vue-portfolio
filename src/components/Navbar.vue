@@ -4,13 +4,13 @@
       <ul>
         <li class="blue"><router-link to="/">Home</router-link></li>
         <li class="purple">
-          <router-link to="/Portfolio">Portfolio</router-link>
+          <router-link to="/Projects">Projects</router-link>
         </li>
         <li class="yellow">
           <router-link to="/Testimonials">Testimonials</router-link>
         </li>
-        <li class="pink"><router-link to="/about">About</router-link></li>
         <li class="green"><router-link to="/Contact">Contact</router-link></li>
+        <li class="pink"><router-link to="/about">About</router-link></li>
       </ul>
     </nav>
   </div>
@@ -37,6 +37,12 @@ body {
   background-position: center;
 }
 
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
 ul {
   width: 100%;
   height: 100%;

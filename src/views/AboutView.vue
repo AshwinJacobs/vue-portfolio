@@ -31,7 +31,7 @@
   </div>
   <div class="Neon Footer"></div>
   <div class="Neon-Bottom">
-    <p class="mx-3 fs-5">
+    <p class="info mx-3">
       Some Contact Information : <br /><span>Call: 061 046 2281</span><br />
       <span>Email: ashwin.dean21@gmail.com</span>
     </p>
@@ -48,6 +48,9 @@ body {
   font-size: 18px;
   letter-spacing: 3px;
   line-height: 1.4;
+}
+.info {
+  font-size: 20px;
 }
 p {
   color: white;

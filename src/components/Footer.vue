@@ -48,7 +48,8 @@ footer {
 footer > p {
   margin: 2rem;
   color: white;
-  padding-top: 12px;
+  padding-top: 10px;
+  font-size: 13px;
 }
 
 footer i {

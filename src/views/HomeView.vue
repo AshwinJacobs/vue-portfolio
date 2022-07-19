@@ -1,8 +1,10 @@
 <template>
   <header class="container-fluid">
-    <h1>Welcome</h1>
-    <h3>I Am Ashwin Jacobs</h3>
-    <h3>A Inspired Web-Developer</h3>
+    <div class="container">
+      <p class="neon white">Welcome</p>
+      <p class="neon blue">I Am Ashwin Jacobs</p>
+      <p class="neon purple">A Inspired Web-Developer</p>
+    </div>
   </header>
 </template>
 
@@ -39,16 +41,29 @@ header {
   align-items: center;
   height: 100vh;
 }
-
-h1,
-h3 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: rgb(13, 24, 225);
-  font-size: 35px;
+p {
+  font-size: 50px;
+  color: white;
 }
 
-h1 {
-  font-size: 40px;
+.blue {
+  text-shadow: 0px 0px 10px deepskyblue, 0px 0px 20px deepskyblue,
+    0px 0px 30px deepskyblue, 0px 0px 40px deepskyblue, 0px 0px 70px deepskyblue,
+    0px 0px 80px deepskyblue, 0px 0px 100px deepskyblue,
+    0px 0px 120px deepskyblue;
+}
+
+.purple {
+  text-shadow: 0px 0px 10px DarkMagenta, 0px 0px 20px DarkMagenta,
+    0px 0px 30px DarkMagenta, 0px 0px 40px DarkMagenta, 0px 0px 70px DarkMagenta,
+    0px 0px 80px DarkMagenta, 0px 0px 100px DarkMagenta,
+    0px 0px 150px DarkMagenta;
+}
+
+.white {
+  text-shadow: 0px 0px 10px Linen, 0px 0px 1px Linen, 0px 0px 1px Linen,
+    0px 0px 40px Linen, 0px 0px 70px Linen, 0px 0px 50px Linen,
+    0px 0px 100px Linen, 0px 0px 150px Linen;
 }
 .text-content {
   margin-bottom: 100px;
