@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav>
-      <ul>
+      <ul class="my-0">
         <li class="blue"><router-link to="/">Home</router-link></li>
         <li class="purple">
           <router-link to="/Projects">Projects</router-link>
@@ -9,8 +9,8 @@
         <li class="yellow">
           <router-link to="/Testimonials">Testimonials</router-link>
         </li>
-        <li class="green"><router-link to="/Contact">Contact</router-link></li>
         <li class="pink"><router-link to="/about">About</router-link></li>
+        <li class="green"><router-link to="/Contact">Contact</router-link></li>
       </ul>
     </nav>
   </div>

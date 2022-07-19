@@ -1,9 +1,9 @@
 <template>
-  <div class="about">
-    <h1 class="text-light">This is an about page</h1>
-  </div>
+  <div class="about"></div>
   <div class="Neon Header">
-    <header class="Neon-Bottom"><h1 class="text-light">About Me</h1></header>
+    <header class="Neon-Bottom">
+      <h1 class="text-light about">About Me</h1>
+    </header>
   </div>
 
   <div class="Neon Content">
@@ -48,6 +48,9 @@ body {
   font-size: 18px;
   letter-spacing: 3px;
   line-height: 1.4;
+}
+.about {
+  font-size: 35px;
 }
 .info {
   font-size: 20px;

@@ -1,32 +1,36 @@
 <template>
-  <form class="container-fluid px-3">
+  <form
+    class="container-fluid px-3"
+    action="https://formspree.io/f/xayvrebw"
+    method="POST"
+  >
     <div class="container">
       <h2 class="mx-5 px-5 text-light">Contact Me</h2>
       <div class="row100">
         <div class="col">
           <div class="inputBox">
-            <input type="text" name="" required />
+            <input type="text" name="name" required />
             <span class="text">First Name</span>
             <span class="line"></span>
           </div>
         </div>
         <div class="col">
           <div class="inputBox">
-            <input type="text" name="" required />
-            <span class="text">Last Name</span>
+            <input type="text" name="name" required />
+            <span class="text">Surname</span>
             <span class="line"></span>
           </div>
         </div>
         <div class="col">
           <div class="inputBox">
-            <input type="text" name="" required />
+            <input type="email" name="email" required />
             <span class="text">Email</span>
             <span class="line"></span>
           </div>
         </div>
         <div class="col">
           <div class="inputBox">
-            <input type="text" name="" required />
+            <input type="number" name="number" required />
             <span class="text">Phone</span>
             <span class="line"></span>
           </div>

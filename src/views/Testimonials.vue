@@ -1,22 +1,12 @@
 <template>
   <div class="Testimonials">
-    <h1 class="testimonials-heading">MY TESTIMONIALS</h1>
     <div v-for="test in testimonials" :key="test.id">
       <img src="" />
       <div class="text-light">
-        <div class="container">
-  <div class="flex-grid-thirds">
-    <div class="col">
-      <a href="#/" class="card card-1">
-        <h3 class="card-heading">{{ test.name }}</h3>
-        <p class="card-content">  {{ test.quote }}</p>
-        <span class="card-cta">{{ test.email }}</span>
-      </a>
-    </div>
-        
-       
+        {{ test.name }}
+        {{ test.email }}
         {{ test.occupation }}
-       
+        {{ test.quote }}
       </div>
     </div>
   </div>
