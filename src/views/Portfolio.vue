@@ -1,9 +1,9 @@
 <template>
-  <div class="about">
-    <h1 class="text-light">This is an about page</h1>
+  <div class="Portfolio">
+    <h1>This is an about page</h1>
   </div>
   <div class="Neon Header">
-    <header class="Neon-Bottom"><h1 class="text-light">About Me</h1></header>
+    <header class="Neon-Bottom"><h1>Love Neon</h1></header>
   </div>
 
   <div class="Neon Content">
@@ -43,9 +43,7 @@
     </div>
   </div>
   <div class="Neon Footer"></div>
-  <div class="Neon-Bottom">
-    <p class="mx-3 fs-5">Some contact information</p>
-  </div>
+  <div class="Neon-Bottom"><p>Some contact information and legalese</p></div>
 </template>
 
 <style scoped>
@@ -61,8 +59,6 @@ body {
 }
 p {
   color: white;
-  margin-top: 0;
-  margin-bottom: 5rem;
 }
 h1,
 h2,
@@ -162,6 +158,28 @@ header h1 {
   background: #d7fc00;
   border: 2.5px solid #d7fc00;
   box-shadow: 0 0 15px darkgray;
+  position: absolute;
+}
+
+.Neon.Footer {
+  margin: 5vw 5vw 10vw;
+  position: relative;
+}
+.Neon.Footer:before,
+.Neon.Footer:after {
+  background: #00d2ff;
+  border: 2.5px solid #00d2ff;
+  box-shadow: 0 0 15px #80a9c4;
+}
+footer.Neon-Bottom {
+  height: 100%;
+  margin: 10vw 5vw 5vw;
+  position: relative;
+}
+footer.Neon-Bottom:after {
+  background: #00d2ff;
+  border: 2.5px solid #00d2ff;
+  box-shadow: 0 0 15px #80a9c4;
   position: absolute;
 }
 </style>
