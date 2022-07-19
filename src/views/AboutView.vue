@@ -9,36 +9,23 @@
   <div class="Neon Content">
     <div class="Neon-Bottom Content-Body">
       <p>
-        Webtwo ipsum voxy skype eduvant convore ning waze jaiku zimbra kippt,
-        diigo kippt kno yoono insala zooomr. Geni cloudera kno convore cloudera,
-        plickers tumblr trulia blekko fleck, quora yuntaa gsnap. Lanyrd chartly
-        hulu, quora groupon knewton, loopt. Imeem dogster odeo oovoo cotweet
-        chartly prezi vuvox, yuntaa hulu dopplr reddit zappos kno. Yoono gsnap
-        blyve wikia geni, sococo odeo kiko. Zynga hulu xobni dopplr napster hulu
-        zappos yuntaa, mozy zillow vimeo handango ngmoco kno. Spock greplin
-        jiglu divvyshot balihoo, zanga zimbra. Edmodo zoosk squidoo joost zlio,
-        dopplr twones wakoopa. Voxy blippy oooj jiglu cuil, grockit palantir.
+        I am hardworking and work well in a team. I am time conscious and
+        willing to learn new things. I find a way of comfort when working with
+        new people and adapting to a new environment. I have good interpersonal
+        skills and enjoy talking about new technology in the market, new
+        smartphones, laptops and desktops.
       </p>
       <p>
-        Greplin handango etsy plickers rovio jumo, kiko voki heroku. Vimeo bitly
-        squidoo eduvant, trulia. Skype lanyrd zappos lala yoono weebly, dogster
-        omgpop napster. Greplin zooomr insala wikia zapier twitter, vuvox
-        hipmunk kiko plickers. Voxy greplin yoono appjet foodzie empressr,
-        balihoo movity loopt mozy glogster, twones bitly plugg bitly.
+        2017 Matric- After completing my Matric I've worked casually at a home
+        based car garage working specifically on Honda 2018-2019 IT Essentials-
+        Started working on computers and laptops. Providing a service for
+        private clients 2018-2020 CCNA CCNP- Working on routers and switches,
+        got to learn about cyber-ops and loved it. My online platforms are
+        highly secured.
       </p>
       <p>
-        whrrl. Movity reddit omgpop handango, ideeli scribd. Ebay zooomr imeem
-        quora prezi stypi, grockit empressr cuil plaxo, joukuu wakoopa mog
-        vuvox. Joukuu lanyrd convore, wikia. Ifttt mozy spotify zlio balihoo,
-        dropio ideeli sclipo. Klout revver yuntaa heekya zapier whrrl revver
-        ngmoco, blippy wakoopa grockit boxbe wufoo napster. Heroku flickr
-        hipmunk yoono meebo foodzie, cloudera trulia dogster. Gooru hulu fleck
-        twitter whrrl jajah, heekya blippy jajah mzinga. Tumblr ning chartly
-        hojoki nuvvo, woopra wufoo plugg. foodzie zapier. Glogster babblely
-        yuntaa ning blippy blyve bitly, spock voxy sifteo voki spotify. etsy
-        weebly knewton. Odeo akismet zinch jiglu, mzinga. Nuvvo zanga zinch
-        woopra etsy joost, empressr tumblr jiglu. Zynga cloudera joyent bubbli
-        quora, zappos zillow voki.
+        2017 Matric Certificate 2018-2019 IT Essentials Certificate 2019-2020
+        CCNP Certificate
       </p>
     </div>
   </div>
@@ -63,6 +50,7 @@ p {
   color: white;
   margin-top: 0;
   margin-bottom: 5rem;
+  font-size: 20px;
 }
 h1,
 h2,
@@ -75,8 +63,8 @@ h6 {
   text-shadow: 0 0 15px darkgray;
 }
 h1:after {
-  background: #d7fc00;
-  border: 2.5px solid #d7fc00;
+  background: #1d2fab;
+  border: 2.5px solid #004efc;
   border-radius: 50px;
   box-shadow: 0 0 15px darkgrey;
   content: "";
@@ -137,8 +125,6 @@ header h1 {
 }
 .Neon.Header:before,
 .Neon.Header:after {
-  background: #fe2d79;
-  border: 2.5px solid #fe2d79;
   box-shadow: 0 0 15px #a37c8f;
   height: calc(100% + 2.5vw);
 }
@@ -149,8 +135,8 @@ header h1 {
 }
 .Neon.Content:before,
 .Neon.Content:after {
-  background: #d7fc00;
-  border: 2.5px solid #d7fc00;
+  background: #0c06b5;
+  border: 2.5px solid #181dba;
   box-shadow: 0 0 15px darkgray;
 }
 .Neon-Bottom.Content-Body {
@@ -159,8 +145,8 @@ header h1 {
   position: relative;
 }
 .Neon-Bottom.Content-Body:after {
-  background: #d7fc00;
-  border: 2.5px solid #d7fc00;
+  background: #3200fc;
+  border: 2.5px solid #3f00fc;
   box-shadow: 0 0 15px darkgray;
   position: absolute;
 }

@@ -42,7 +42,7 @@ footer {
   justify-content: space-evenly;
   padding: 1rem;
   background: var(--color-mate-dark);
-  border-top: 4px solid var(--color-neon);
+  border-top: 4px solid #ae1dc6;
 }
 
 footer > p {
