@@ -196,7 +196,6 @@ ul {
   margin: 0 auto;
   padding: 0;
   list-style: none;
-  padding: 9px 11px;
 }
 
 @keyframes neon-efect-suave {
@@ -238,7 +237,7 @@ ul {
 .button-icon-rotate > a {
   border: 1px solid #fff;
   display: flex;
-  margin: 20px 0;
+  margin: -12px 0;
   text-align: center;
   padding: 20px;
   text-decoration: none;
@@ -272,9 +271,9 @@ ul {
 
 .button-icon-rotate.Github > a:hover {
   color: #fff;
-  box-shadow: 0px 0px 10px 0px #ff0000 !important;
-  border-color: #ff0000 !important;
-  background-color: #ff0000;
+  box-shadow: 0px 0px 10px 0px #0238a4 !important;
+  border-color: #030ba2 !important;
+  background-color: #060498;
   text-shadow: 0px 0px 10px white;
 }
 

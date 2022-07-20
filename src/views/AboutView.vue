@@ -8,7 +8,7 @@
 
   <div class="Neon Content">
     <div class="Neon-Bottom Content-Body">
-      <span class="title">Who I Am</span>
+      <span class="title text-light">Who I Am</span>
       <p>
         I am hardworking and work well in a team. I am time conscious and
         willing to learn new things. I find a way of comfort when working with
@@ -49,6 +49,9 @@ body {
   font-size: 18px;
   letter-spacing: 3px;
   line-height: 1.4;
+}
+.title {
+  font-size: 20px;
 }
 .about {
   font-size: 35px;
