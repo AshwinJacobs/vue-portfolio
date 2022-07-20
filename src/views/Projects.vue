@@ -1,162 +1,300 @@
 <template>
-  <ul class="cards flex-container">
-    <li class="flex-item">
-      <div class="card">
-        <h3>Card 1 header</h3>
-        <p>Card content content content content content content content etc.</p>
-        <a>Card link</a>
+  <div class="container">
+    <div class="flex-grid-thirds">
+      <div class="col">
+        <div class="Projects">
+          <div v-for="(Pro, index) in Projects" :key="Pro.id">
+            <div class="text-light">
+              <div class="card card-1">
+                <h3 class="card-heading">{{ Pro.name }}</h3>
+                <p class="card-content">
+                  {{ Pro.Description }}
+                </p>
+                <img class="img-fluid" v-bind:src="Pro.img" />
+                <ul>
+                  <li class="button-icon-rotate Github">
+                    <a :id="index" :href="Pro.github" target="_blank">
+                      <i class="fa-brands fa-github"></i>Github
+                    </a>
+                  </li>
+                  <li class="button-icon-rotate Netlify">
+                    <a :id="index" :href="Pro.Netlify" target="_blank"
+                      ><i class="fa-solid fa-n"> </i>Netlify</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </li>
-    <li class="flex-item">
-      <div class="card">
-        <h3>Card 2 header</h3>
-        <p>Card content content content content content content content etc.</p>
-        <a>Card link</a>
-      </div>
-    </li>
-    <li class="flex-item">
-      <div class="card">
-        <h3>Card 3 header</h3>
-        <p>Card content content content content content content content etc.</p>
-        <a>Card link</a>
-      </div>
-    </li>
-    <li class="flex-item">
-      <div class="card">
-        <h3>Card 4 header</h3>
-        <p>Card content content content content content content content etc.</p>
-        <a>Card link</a>
-      </div>
-    </li>
-    <li class="flex-item">
-      <div class="card">
-        <h3>Card 5 header</h3>
-        <p>Card content content content content content content content etc.</p>
-        <a>Card link</a>
-      </div>
-    </li>
-    <li class="flex-item">
-      <div class="card">
-        <h3>Card 6 header</h3>
-        <p>Card content content content content content content content etc.</p>
-        <a>Card link</a>
-      </div>
-    </li>
-    <li class="flex-item">
-      <div class="card">
-        <h3>Card 7 header</h3>
-        <p>Card content content content content content content content etc.</p>
-        <a>Card link</a>
-      </div>
-    </li>
-    <li class="flex-item">
-      <div class="card">
-        <h3>Card 8 header</h3>
-        <p>Card content content content content content content content etc.</p>
-        <a>Card link</a>
-      </div>
-    </li>
-  </ul>
+    </div>
+  </div>
 </template>
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      Projects: [
+        {
+          id: 1,
+          name: "BMI Calculator",
+          img: "https://i.postimg.cc/8PXdPQnc/BMI.png",
+          Description: "",
+          github: "https://github.com/AshwinJacobs/BMI-Calculator",
+          Netlify: "https://bmi-balanced-lifestyle321.netlify.app",
+        },
+        {
+          id: 2,
+          name: "Tempreture Converter",
+          img: "https://i.postimg.cc/3rBCVDXg/Temp.png",
+          Description: "",
+          github: "https://github.com/AshwinJacobs/Temperature-Converter",
+          Netlify: "https://temp-hot-cold-321.netlify.app",
+        },
+        {
+          id: 3,
+          name: "Calculator",
+          img: "https://i.postimg.cc/L87VvKzw/Calculator.png",
+          Description: "",
+          github: "",
+          Netlify: "https://calculator-12345.netlify.app",
+        },
+        {
+          id: 4,
+          name: "Ashwin Estate's",
+          img: "https://i.postimg.cc/1X9049Qn/Ashwin-Estate-s.png",
+          Description: "",
+          github: "https://github.com/AshwinJacobs/Java_End_Of_Module",
+          Netlify: "https://end-of-java-module.netlify.app",
+        },
+        {
+          id: 5,
+          name: "Fake-Store",
+          img: "https://i.postimg.cc/MGQmFP5T/fake-store.png",
+          Description: "",
+          github: "https://github.com/AshwinJacobs/API-Fake-Store",
+          Netlify: "https://comforting-starlight-790ffa.netlify.app",
+        },
+        {
+          id: 6,
+          name: "Portfolio",
+          img: "https://i.postimg.cc/xdMLRkjN/Portfolio.png",
+          Description: "",
+          github: "https://github.com/AshwinJacobs/Final-Portfolio",
+          Netlify: "https://cheerful-marzipan-71be45.netlify.app",
+        },
+      ],
+    };
+  },
+};
 </script>
 <style scoped>
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,600");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.container {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-  background-color: #060c21;
-  padding: 2rem;
-}
-
-.flex-container {
-  position: relative;
-  z-index: 1;
+.flex-grid {
   display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+}
+.flex-grid .col {
+  flex: 1;
+}
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-grid-thirds .col {
+  width: 31%;
 }
 
-/* Card styles */
+@media (max-width: 400px) {
+  .flex-grid,
+  .flex-grid-thirds {
+    display: block;
+  }
 
-.cards {
-  list-style-type: none;
-  padding: 0;
+  .flex-grid .col,
+  .flex-grid-thirds .col {
+    width: 100%;
+    margin: 0 0 50px 0;
+  }
 }
 
 .card {
-  max-width: 30rem;
-  height: 30rem;
-  position: relative;
-  padding: 1rem;
-  background-color: #060c21;
+  background-color: #1f1f1f;
+  border-radius: 10px;
   color: #fff;
+  display: block;
+  overflow: hidden;
+  padding: 20px 30px;
+  position: relative;
+  text-decoration: none;
+  transition: background-color 300ms ease-in-out;
+  width: 100%;
 }
 
 .card::before {
   content: "";
   position: absolute;
-  top: -2px;
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
-  z-index: -2;
-}
-
-.card::after {
-  content: "";
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
-  z-index: -3;
-  filter: blur(10px);
-}
-
-.card:nth-child(3n + 0)::before,
-.card:nth-child(3n + 0)::after {
-  background: linear-gradient(235deg, #89ff00, #060c21, #00bcd4);
-}
-
-.card:nth-child(3n + 1)::before,
-.card:nth-child(3n + 1)::after {
-  background: linear-gradient(235deg, #ff005e, #060c21, #0436a2);
-}
-
-.card:nth-child(3n + 2)::before,
-.card:nth-child(3n + 2)::after {
-  background: linear-gradient(235deg, #772aff, #060c21, #2196f3);
-}
-
-h3 {
-  margin-bottom: 1rem;
-}
-
-p {
-  margin-bottom: 1rem;
-}
-
-a {
-  text-decoration: underline;
-}
-
-a:hover {
-  color: rgb(137, 255, 0);
-  cursor: pointer;
-}
-ul {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   width: 100%;
-  height: fit-content;
-  background-color: rgb(0 0 0);
+  height: 100%;
+  z-index: -1;
+}
+
+.card:hover {
+  background-color: transparent;
+}
+
+.card > * {
+  z-index: 10;
+}
+
+.card-heading {
+  font-size: 28px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+.card-cta {
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.card-1 {
+  border: 1px solid rgb(56, 105, 255);
+  box-shadow: 0 3px 15px 2px rgba(56, 105, 255, 0.5);
+}
+
+.card-1::before {
+  background: rgb(56, 105, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(56, 105, 255, 1) 0%,
+    rgba(10, 52, 179, 1) 100%
+  );
+}
+
+.card-1 {
+  border: 1px solid rgb(230, 24, 95);
+  box-shadow: 0 3px 15px 2px rgba(230, 24, 95, 0.9);
+}
+
+.card-1::before {
+  background-color: rgb(230, 24, 95);
+  background-color: linear-gradient(
+    135deg,
+    rgba(230, 24, 95, 1) 0%,
+    rgba(121, 0, 42, 1) 100%
+  );
+}
+
+ul {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+@keyframes neon-efect-suave {
+  0% {
+    border: 2px solid #ff05bca9;
+    box-shadow: 0px 0px 10px 0px #ff05bca9, inset 0px 0px 10px 0px #ff05bca9;
+  }
+  0% {
+    border: 2px solid #ff05bca9;
+    box-shadow: 0px 0px 5px 0px #ff05bca9, inset 0px 0px 10px 0px #ff05bca9;
+  }
+  0% {
+    border: 2px solid transparent;
+    box-shadow: none;
+  }
+  0% {
+    border: 2px solid #ff05bca9;
+    box-shadow: 0px 0px 5px 0px #ff05bca9, inset 0px 0px 10px 0px #ff05bca9;
+  }
+  100% {
+    border: 2px solid transparent;
+    box-shadow: none;
+  }
+}
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.button-icon-rotate > a {
+  border: 1px solid #fff;
+  display: flex;
+  margin: 20px 0;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+  text-transform: uppercase;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  text-shadow: 0px 0px 10px #ff05bc;
+  width: 26rem;
+}
+.button-icon-rotate > a > i {
+  font-size: 28px;
+  transition: 0.5s;
+}
+.button-icon-rotate > a:hover {
+  background-color: #a18400;
+  color: #000;
+  transform: scale(1.05);
+}
+.button-icon-rotate > a:hover > i {
+  transform: scale(1.7) rotate(360deg);
+}
+.button-icon-rotate > a {
+  -webkit-animation: neon-efect-suave infinite alternate 1s ease-in-out;
+  animation: neon-efect-suave infinite alternate 1s ease-in-out;
+}
+
+.button-icon-rotate.Github > a:hover {
+  color: #fff;
+  box-shadow: 0px 0px 10px 0px #ff0000 !important;
+  border-color: #ff0000 !important;
+  background-color: #ff0000;
+  text-shadow: 0px 0px 10px white;
+}
+
+.button-icon-rotate.Netlify > a:hover {
+  color: #fff;
+  box-shadow: 0px 0px 10px 0px #9146ff !important;
+  border-color: #9146ff !important;
+  background-color: #9146ff;
+  text-shadow: 0px 0px 10px white;
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+  display: none;
 }
 </style>

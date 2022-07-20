@@ -32,7 +32,7 @@ body {
   width: 100%;
   height: 100vh;
   background-image: url("https://s33.postimg.cc/obnod1hj3/pexels19.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   background-position: center;
 }

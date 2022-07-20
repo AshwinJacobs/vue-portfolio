@@ -8,6 +8,7 @@
 
   <div class="Neon Content">
     <div class="Neon-Bottom Content-Body">
+      <span class="title">Who I Am</span>
       <p>
         I am hardworking and work well in a team. I am time conscious and
         willing to learn new things. I find a way of comfort when working with
@@ -139,7 +140,7 @@ header h1 {
 }
 
 .Neon.Content {
-  margin: 5vw;
+  margin: 0vw;
   position: relative;
 }
 .Neon.Content:before,
