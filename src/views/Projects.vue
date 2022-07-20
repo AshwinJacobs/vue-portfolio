@@ -40,7 +40,6 @@ export default {
           id: 1,
           name: "BMI Calculator",
           img: "https://i.postimg.cc/8PXdPQnc/BMI.png",
-          Description: "",
           github: "https://github.com/AshwinJacobs/BMI-Calculator",
           Netlify: "https://bmi-balanced-lifestyle321.netlify.app",
         },
@@ -48,7 +47,6 @@ export default {
           id: 2,
           name: "Tempreture Converter",
           img: "https://i.postimg.cc/3rBCVDXg/Temp.png",
-          Description: "",
           github: "https://github.com/AshwinJacobs/Temperature-Converter",
           Netlify: "https://temp-hot-cold-321.netlify.app",
         },
@@ -56,15 +54,13 @@ export default {
           id: 3,
           name: "Calculator",
           img: "https://i.postimg.cc/L87VvKzw/Calculator.png",
-          Description: "",
-          github: "",
+          github: "https://github.com/AshwinJacobs/My-new-Calculator",
           Netlify: "https://calculator-12345.netlify.app",
         },
         {
           id: 4,
           name: "Ashwin Estate's",
           img: "https://i.postimg.cc/1X9049Qn/Ashwin-Estate-s.png",
-          Description: "",
           github: "https://github.com/AshwinJacobs/Java_End_Of_Module",
           Netlify: "https://end-of-java-module.netlify.app",
         },
@@ -72,7 +68,6 @@ export default {
           id: 5,
           name: "Fake-Store",
           img: "https://i.postimg.cc/MGQmFP5T/fake-store.png",
-          Description: "",
           github: "https://github.com/AshwinJacobs/API-Fake-Store",
           Netlify: "https://comforting-starlight-790ffa.netlify.app",
         },
@@ -80,7 +75,6 @@ export default {
           id: 6,
           name: "Portfolio",
           img: "https://i.postimg.cc/xdMLRkjN/Portfolio.png",
-          Description: "",
           github: "https://github.com/AshwinJacobs/Final-Portfolio",
           Netlify: "https://cheerful-marzipan-71be45.netlify.app",
         },
@@ -92,7 +86,7 @@ export default {
 <style scoped>
 .container {
   max-width: 1200px;
-  padding: 40px 20px;
+
   margin: 0 auto;
 }
 
@@ -118,7 +112,7 @@ export default {
 
   .flex-grid .col,
   .flex-grid-thirds .col {
-    width: 100%;
+    width: 50%;
     margin: 0 0 50px 0;
   }
 }
@@ -202,6 +196,7 @@ ul {
   margin: 0 auto;
   padding: 0;
   list-style: none;
+  padding: 9px 11px;
 }
 
 @keyframes neon-efect-suave {
