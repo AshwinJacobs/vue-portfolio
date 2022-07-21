@@ -78,7 +78,7 @@ body {
 }
 
 .container h2 {
-  width: 100%;
+  width: 95%;
   color: #1636a9;
   font-size: 36px;
   text-align: center;

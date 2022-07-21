@@ -87,7 +87,6 @@ export default {
   z-index: 1;
 }
 #cover {
-  overflow-x: hidden;
   overflow: hidden;
 }
 /* Card styles */
