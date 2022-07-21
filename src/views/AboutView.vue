@@ -16,17 +16,52 @@
         skills and enjoy talking about new technology in the market, new
         smartphones, laptops and desktops.
       </p>
+      <p></p>
+    </div>
+  </div>
+
+  <div class="Neon Header">
+    <header class="Neon-Bottom">
+      <h1 class="text-light about">Resume</h1>
+    </header>
+  </div>
+
+  <div class="Neon Content">
+    <div class="Neon-Bottom Content-Body">
+      <span class="title text-light"></span>
       <p>
-        2017 Matric- After completing my Matric I've worked casually at a home
-        based car garage working specifically on Honda 2018-2019 IT Essentials-
-        Started working on computers and laptops. Providing a service for
-        private clients 2018-2020 CCNA CCNP- Working on routers and switches,
-        got to learn about cyber-ops and loved it. My online platforms are
-        highly secured.
+        <span class="text-primary">2017</span> After completing my Matric I've
+        worked casually at a home based car workshop working specifically on
+        Honda vehicle's <br />
+        <span class="text-primary">2018-2019</span> Studied at College Of Cape
+        Town Started working on computers and laptops. After the course I
+        provided a service for clients <br />
+        <span class="text-primary">2018-2020</span> Studied at CPUT learnt to
+        work on routers and switches, got to learn about cyber-ops and I loved
+        it. My online platforms are highly secured.
       </p>
       <p>
-        2017 Matric Certificate 2018-2019 IT Essentials Certificate 2019-2020
-        CCNP Certificate
+        2017 Matric Certificate<br />
+        2019 IT Essentials, CCNA Certificate<br />
+        2020 CCNP Certificate
+      </p>
+    </div>
+  </div>
+
+  <div class="Neon Header">
+    <header class="Neon-Bottom">
+      <h1 class="text-light about">Skills</h1>
+    </header>
+  </div>
+
+  <div class="Neon Content">
+    <div class="Neon-Bottom Content-Body">
+      <span class="title text-light"></span>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea odio neque
+        beatae hic tempora quis, praesentium, delectus, perferendis laudantium
+        aliquid corporis dolor iste officiis excepturi. Molestiae eveniet quasi
+        maiores blanditiis.
       </p>
     </div>
   </div>
@@ -51,7 +86,7 @@ body {
   line-height: 1.4;
 }
 .title {
-  font-size: 20px;
+  font-size: 22px;
 }
 .about {
   font-size: 35px;

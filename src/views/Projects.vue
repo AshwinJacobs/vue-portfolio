@@ -59,7 +59,7 @@ export default {
         },
         {
           id: 4,
-          name: "Ashwin Estate's",
+          name: "Ashwin's Estates",
           img: "https://i.postimg.cc/1X9049Qn/Ashwin-Estate-s.png",
           github: "https://github.com/AshwinJacobs/Java_End_Of_Module",
           Netlify: "https://end-of-java-module.netlify.app",
