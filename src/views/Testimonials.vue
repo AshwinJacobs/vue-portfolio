@@ -86,9 +86,7 @@ export default {
   position: relative;
   z-index: 1;
 }
-#cover {
-  overflow: hidden;
-}
+
 /* Card styles */
 
 .cards {
@@ -100,7 +98,7 @@ export default {
 .card {
   max-width: 53rem;
   position: relative;
-  padding: 1rem;
+  padding: 2rem;
   background-color: #060c21;
   color: #fff;
   align-items: center;
