@@ -1,7 +1,7 @@
 <template>
   <div v-for="test in testimonials" :key="test.id">
-    <div class="row">
-      <div class="col-12">
+    <div class="row" id="cover">
+      <div class="col">
         <ul class="cards flex-container">
           <li class="flex-item">
             <div class="card">
@@ -86,12 +86,14 @@ export default {
   position: relative;
   z-index: 1;
 }
-
+#cover {
+  overflow-x: hidden;
+  overflow: hidden;
+}
 /* Card styles */
 
 .cards {
   list-style-type: none;
-  padding: 0;
   display: flex;
   justify-content: center;
 }
@@ -103,6 +105,7 @@ export default {
   background-color: #060c21;
   color: #fff;
   align-items: center;
+  font-size: 15px;
 }
 
 .card::before {
@@ -119,8 +122,8 @@ export default {
   content: "";
   position: absolute;
   top: -2px;
-  left: -2px;
-  right: -2px;
+  left: -3px;
+  right: -3px;
   bottom: -2px;
   z-index: -3;
   filter: blur(10px);
@@ -128,7 +131,7 @@ export default {
 
 .card:nth-child(3n + 1)::before,
 .card:nth-child(3n + 1)::after {
-  background: linear-gradient(235deg, #ff005e, #060c2158, #004cff);
+  background: linear-gradient(235deg, #ff005e, #004cff);
 }
 
 h3 {
@@ -137,14 +140,5 @@ h3 {
 
 p {
   margin-bottom: 1rem;
-}
-
-a {
-  text-decoration: underline;
-}
-
-a:hover {
-  color: rgb(137, 255, 0);
-  cursor: pointer;
 }
 </style>
