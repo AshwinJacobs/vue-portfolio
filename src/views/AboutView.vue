@@ -30,8 +30,8 @@
     <div class="Neon-Bottom Content-Body">
       <span class="title text-light"></span>
       <p>
-        <span class="text-primary">2017</span> After completing my Matric I've
-        worked casually at a home based car workshop working specifically on
+        <span class="text-primary">2017</span> After completing my Matric I
+        worked casually at a home based car workshop, working specifically on
         Honda vehicle's <br />
         <span class="text-primary">2018-2019</span> Studied at College Of Cape
         Town Started working on computers and laptops. After the course I
@@ -57,12 +57,21 @@
   <div class="Neon Content">
     <div class="Neon-Bottom Content-Body">
       <span class="title text-light"></span>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea odio neque
-        beatae hic tempora quis, praesentium, delectus, perferendis laudantium
-        aliquid corporis dolor iste officiis excepturi. Molestiae eveniet quasi
-        maiores blanditiis.
-      </p>
+      <div class="container container-fluid">
+        <i class="fa-brands fa-html5" id="github">
+          <span> HTML </span>
+        </i>
+        <i class="fa-brands fa-css3-alt" id="Linkedin"> <span> CSS</span></i>
+
+        <i class="fa-solid fa-database" id="Linkedin"> <span> SQL </span></i>
+        <i class="fa-brands fa-vuejs" id="Linkedin"><span> VUE </span></i>
+        <i class="fa-brands fa-bootstrap" id="Linkedin">
+          <span> Bootstrap </span>
+        </i>
+        <i class="fa-brands fa-js-square" id="Linkedin"
+          ><span> Javascript </span></i
+        >
+      </div>
     </div>
   </div>
   <div class="Neon Footer"></div>
@@ -94,6 +103,46 @@ body {
 .info {
   font-size: 20px;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 111vh;
+  width: 89vw;
+  flex-wrap: wrap;
+}
+
+#github,
+#Linkedin {
+  font-size: 8em;
+  background-color: #18191f;
+  color: #fff;
+  box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
+    2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080,
+    inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080,
+    inset 2px 2px 10px #00000080;
+  border-radius: 29px;
+  padding: 11px 19px;
+  margin: 0 40px;
+  animation: animate 3s linear infinite;
+  text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+    0 0 200px #0072ff;
+}
+
+#github {
+  animation-delay: 0.1s;
+}
+
+@keyframes animate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
 p {
   color: white;
   margin-top: 0;
