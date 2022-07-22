@@ -108,14 +108,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 120vh;
+  height: 100%;
   width: 89vw;
   flex-wrap: wrap;
+  font-size: 7px;
 }
 
 #github,
 #Linkedin {
-  font-size: 8em;
+  font-size: 5em;
   background-color: #18191f;
   color: #fff;
   box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
@@ -124,7 +125,7 @@ body {
     inset 2px 2px 10px #00000080;
   border-radius: 29px;
   padding: 11px 19px;
-  margin: 0 40px;
+  margin: 11px 48px;
   animation: animate 3s linear infinite;
   text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
     0 0 200px #0072ff;
