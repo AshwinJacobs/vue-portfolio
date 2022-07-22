@@ -108,7 +108,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 111vh;
+  height: 120vh;
   width: 89vw;
   flex-wrap: wrap;
 }
