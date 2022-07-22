@@ -104,7 +104,7 @@ export default {
   width: 31%;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 300px) {
   .flex-grid,
   .flex-grid-thirds {
     display: block;
@@ -114,6 +114,9 @@ export default {
   .flex-grid-thirds .col {
     width: 50%;
     margin: 0 0 50px 0;
+  }
+  .button-icon-rotate Github {
+    margin: -12px 20px;
   }
 }
 
