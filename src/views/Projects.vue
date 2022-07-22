@@ -104,7 +104,7 @@ export default {
   width: 31%;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 350px) {
   .flex-grid,
   .flex-grid-thirds {
     display: block;

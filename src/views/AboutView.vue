@@ -8,7 +8,7 @@
 
   <div class="Neon Content">
     <div class="Neon-Bottom Content-Body">
-      <span class="title text-light">Who I Am</span>
+      <span class="title text-light head">Who I Am</span>
       <p>
         I am hardworking and work well in a team. I am time conscious and
         willing to learn new things. I find a way of comfort when working with
@@ -30,20 +30,25 @@
     <div class="Neon-Bottom Content-Body">
       <span class="title text-light"></span>
       <p>
-        <span class="text-primary">2017</span> After completing my Matric I
-        worked casually at a home based car workshop, working specifically on
-        Honda vehicle's <br />
-        <span class="text-primary">2018-2019</span> Studied at College Of Cape
-        Town Started working on computers and laptops. After the course I
-        provided a service for clients <br />
-        <span class="text-primary">2018-2020</span> Studied at CPUT learnt to
-        work on routers and switches, got to learn about cyber-ops and I loved
-        it. My online platforms are highly secured.
+        <span class="head">Life Experience</span><br />
+        <span class="year">2017</span> After completing my Matric I worked
+        casually at a home based car workshop, working specifically on Honda
+        vehicle's <br />
+        <span class="year">2018-2019</span> Studied at College Of Cape Town
+        Started working on computers and laptops. After the course I provided a
+        service for clients <br />
+        <span class="year">2018-2020</span> Studied at CPUT learnt to work on
+        routers and switches, got to learn about cyber-ops and I loved it. My
+        online platforms are highly secured.<br />
+        <span class="year">2022</span> Got the opportunity to join Life Choices
+        Academy. I have improved on my web development skills, learnt new things
+        and gained new experience in my first work environment
       </p>
       <p>
-        2017 Matric Certificate<br />
-        2019 IT Essentials, CCNA Certificate<br />
-        2020 CCNP Certificate
+        <span class="head">Qualifications</span><br />
+        <span class="year"> 2017</span> Matric Certificate<br />
+        <span class="year"> 2019</span> IT Essentials, CCNA Certificate<br />
+        <span class="year">2020</span> CCNP Certificate
       </p>
     </div>
   </div>
@@ -66,10 +71,10 @@
         <i class="fa-solid fa-database" id="Linkedin"> <span> SQL </span></i>
         <i class="fa-brands fa-vuejs" id="Linkedin"><span> VUE </span></i>
         <i class="fa-brands fa-bootstrap" id="Linkedin">
-          <span> Bootstrap </span>
+          <span> BOOTSTRAP </span>
         </i>
         <i class="fa-brands fa-js-square" id="Linkedin"
-          ><span> Javascript </span></i
+          ><span> JAVASCRIPT </span></i
         >
       </div>
     </div>
@@ -77,8 +82,20 @@
   <div class="Neon Footer"></div>
   <div class="Neon-Bottom">
     <p class="info mx-3">
-      Some Contact Information : <br /><span>Call: 061 046 2281</span><br />
-      <span>Email: ashwin.dean21@gmail.com</span>
+      Some Contact Information : <br /><i class="fa-solid fa-square-phone fs-1">
+      </i>
+      <span> 061 046 2281</span><br />
+      <i class="fa-solid fa-square-envelope fs-1"></i>
+      <span> ashwin.dean21@gmail.com</span><br />
+      <i class="fa-brands fa-linkedin"
+        ><a
+          class="link"
+          href="Https://www.linkedin.com/in/ashwin-dean-0956b0199/"
+          target="_blank"
+        >
+          Linkedin</a
+        ></i
+      >
     </p>
   </div>
 </template>
@@ -102,6 +119,19 @@ body {
 }
 .info {
   font-size: 20px;
+}
+.year {
+  font-size: 25px;
+  background-color: darkorchid;
+  color: black;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+.head {
+  font-size: 25px;
+  padding-top: 1px;
 }
 
 .container {
